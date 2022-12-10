@@ -1,0 +1,258 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+
+.navbar{
+  
+   background-color: #033747;
+   padding: 10px 70px;
+   line-height: 45px;
+}
+.navbar ul{
+    list-style: none;
+    text-align: center;
+}
+.navbar p{
+    margin-left: 10px;
+    text-transform: capitalize;
+    font-size: 24px;
+    float: left;
+    font-weight: bold;
+}
+
+.navbar ul li{
+    display: inline-block;
+    margin: 0px 20px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+.navbar ul li a:hover{
+    color: blue;
+}
+.navbar span{
+    position: absolute;
+    right: 10px;
+}
+.navbar label{
+    margin: 0px 10px;
+}
+.con{
+    background-color: #033747;
+}
+.mid {
+    
+    clear: both;
+    margin-top: 20px;
+  
+    
+    line-height: 40px;
+}
+.mid ul{
+    list-style: none;
+}
+.mid ul li{
+    display: inline-block;
+    text-transform: capitalize;
+    margin-left: 9%;
+    text-transform: capitalize;
+    font-size:18px ;
+}
+.mid .con {
+   
+    width: 90%;
+    margin: 10px auto;
+
+}
+.mid ul li label{
+    margin: 0px 10px;
+}
+.mid ul li span{
+    font-size: 18px ;
+    background-color: blue;
+    padding: 10px;
+    color: #fff;
+   
+}
+.con #m{
+    color: rgb(173, 175, 230);
+    font-weight: bold;
+}
+.grid_use{
+    margin-top: 20px;
+   
+  
+}
+.grid_use .jobs{
+    width: 90%;
+    margin: 10px auto;
+}
+.jobs{
+ 
+}
+.jobs ul{
+    list-style: none;
+}
+.jobs div{
+    margin-top: 10px;
+    border: 1px solid ;
+    text-transform: capitalize;
+    padding:20px;
+    
+    width: 220px;
+}
+.col1{
+    /* background-color: aqua; */
+}
+.col1 h3{
+    font-size: 24px;
+}
+.col1 p{
+    margin-top: 10px;
+    font-weight: 50px;
+    font-size: 13px;
+}
+.col1 input{
+    margin-top: 10px;
+    padding: 5px;
+}
+.col1 button{
+    margin-top: 20px;
+    padding:5px;
+    font-size: 18px;
+    background-color: blue;
+    color: #fff;
+
+}
+.col2 h3{
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.col2{
+    line-height: 30px;
+    
+}
+.col2 ul{
+    font-size: 18px;
+}
+.col2 ul li input{
+   margin-right: 10px;
+}
+.col3 h3{
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.col3{
+    line-height: 30px;
+    
+}
+.col3 ul{
+    font-size: 18px;
+}
+.col3 ul li input{
+   margin-right: 10px;
+}
+.col4 h3{
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.col4{
+    line-height: 30px;
+    
+}
+.col4 ul{
+    font-size: 18px;
+}
+.col4 ul li input{
+   margin-right: 10px;
+}
+.container{
+    
+    border: 1px solid;
+}
+#sec1{
+    display: inline-block;
+    height: 100vh;
+    width: 300px;
+}
+#sec2{
+
+    position: absolute;
+    display: inline-block;
+    border:2px solid green;
+    width: 1020px;
+    /* height: 100vh; */
+}
+
+#sec3{
+    position: static;
+    border:2px solid blue;
+    height: 325px;
+    width: 300px;
+}
+
+/* sec2 box design */
+
+#divsec2{
+    /* width: 55vw; */
+    margin: 30px auto;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+figure{
+    width: 300px;
+    
+    /* border: 1px solid black; */
+    margin: 15px;
+    transition: 200ms;
+    box-shadow: 3px 8px 5px gray;
+}
+figure h2{
+    text-transform: capitalize;
+    font-size: 18px;
+    margin-top: 10px;
+}
+figure img{
+   
+    width:  80px;
+    padding: 8px;
+}
+
+figure p{
+    margin-top: 10px;
+}
+button{
+    margin: 10px;
+    padding: 10px;
+    font-size: 15px;
+}
+figure span{
+    display: inline-block;
+    background-color:lightcyan;
+    padding:5px ;
+    color: blueviolet;
+    border-radius:10px ;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+#n{
+    background-color: blue;
+    color: #fff;
+}
+#n:hover{
+    background-color: aqua;
+}
+
+
+figure:hover{
+    transform: scale(1.03);
+}
